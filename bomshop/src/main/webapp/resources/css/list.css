@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+*{
+	box-sizing : border-box;
+}
+
+#Wrapper{
+	width : 100%;
+	overflow : hidden;
+	display : block;
+	position : relative;
+}
+
+/* #Wrapper div{
+	border : 1px solid black;
+} */
+
+.divide{
+	margin-top: 40px;
+    border-top: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+ul, li{
+	list-style : none;
+}
+
+.pagetitle{
+	text-align: center;
+    padding: 40px 0px 10px 0px;
+    clear: both;
+}
+
+.pagetitle a{
+	font-size: 18px;
+    color: #4a4a4a;
+	float : right;
+}
+
+.pagetitle h1{
+	text-align: left;
+    margin: 10px 0 15px 0;
+    font-size: 1.8em;
+    padding: 0 5px;
+}
+
+.title{
+	float : none;
+	font-size: 26px;
+    font-weight: bold;
+}
+
+.more_btn{
+	padding: 0 20px 0 0;
+    position: relative;
+    line-height: 38px;
+}
+
+.list_full{
+	max-width : 1300px; 
+	overflow : hidden;
+	margin : 0 auto;
+	display : block;
+	box-sizing : border-box;
+}
+
+.goods_list{
+	width : 100%;
+	box-sizing : border-box;
+	overflow : hidden;
+}
+
+.goods_list ul{
+	width : 20%;
+	vertical-align : top;
+	box-sizing : border-box;
+	float : left;
+	margin : 0;
+	padding : 0 0.5% 30px 0.5%;
+	overflow : hidden;
+	display : inline-block;
+	font-size : 1.2em;
+}
+
+.list_seller a{
+	font-size: 15px;
+    color : #4a4a4a;
+}
+
+.list_gname a{
+	font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.price{
+	font-size: 20px;
+    font-weight: 600;
+    padding-right: 6px;
+}
+
+.origin_price{
+	text-decoration : line-through;
+	color : #9e9e9e;
+	font-size : 15px;
+}
+
+.list_scount{
+	margin-top : 5px;
+	font-size : 0.8em;
+	color: #9e9e9e;
+}
+
+a{
+	text-decoration: none;
+	 color: #000;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+/* 광고 슬라이드 관련 */
+#banner{
+	width : 100%;
+	position : relative;
+}
+
+.slideshow-container{
+	height : 400px;
+	max-width : 1300px;
+	margin : 0 auto;
+	margin-bottom : 30px;
+	text-align : center;
+	position : relative;
+}
+
+.mySlides{
+	display : none;
+}
+
+.mySlides img{
+	max-width : 1300px;
+	height : 400px;
+	position : relative;
+}
+
+.prev{
+	position : absolute;
+	left : 0;
+	top : 169px;
+	opacity : 0.3;
+	z-index : 1;
+	display : block;
+}
+
+.next{
+	position : absolute;
+	right : 0;
+	top : 169px;
+	opacity : 0.3;
+	z-index : 1;
+	display : block;
+}
+
+.dot{
+	cursor : pointer;
+	height : 15px;
+	width : 15px;
+	background-color: #bbb;
+  	border-radius: 50%;
+  	display: inline-block;
+  	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  opacity : 1;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+.join_wrap{
+	margin : 40px 0 150px 0;
+	text-align : center;
+}
+
+#joinForm{
+	display:inline-block;
+	text-align: left;
+	margin-top : 50px;
+}
+
+#joinForm input[type="button"], #modalBtn{
+	height : 35px;
+	margin-bottom : 5px;
+}
+
+#joinBtn{
+	width : 300px;
+}
+
+table{
+	width : 500px;
+}
+
+table input[type="text"],input[type="password"],input[type="email"]{
+	width:350px;
+	border : 1px solid lightgray;
+	height : 35px;
+	border-radius: 8px;
+}
+
+#address1,#address2{
+	width:470px;
+}

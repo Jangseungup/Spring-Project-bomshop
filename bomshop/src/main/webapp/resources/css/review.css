@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+.review_wrap{
+	width : 100%;
+	margin : 10px auto;
+	clear : both;
+}
+
+.review_tabs{
+	width : 100%;
+	max-width : 1300px;
+	text-align : center;
+	margin : 0 auto;
+	overflow : hidden;
+}
+
+.review_tabs div{
+	float: left;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.review_tabs div span{
+	color: #8d8d8d;
+}
+
+ul, li{
+	list-style : none;	
+}
+
+.re_tab{
+	list-style : none;
+	margin : 0;
+	padding : 0;
+	overflow : hidden;
+}
+
+.re_tab li{
+	display : inline-block;
+	float : right;
+	padding : 0 20px;
+	border-right : 1px solid #c5c5c5;
+	cursor : pointer;
+	color : #888888;
+}
+
+.re_tab li:first-child{
+	border : 0;
+	border-right : 0px;
+}
+
+.re_tab li.current{
+	color : #000;
+	font-size : 1.2em;
+}
+
+.re_date{
+	width : 60%;
+	float : left;
+}
+
+.review_container{
+	display : none;
+	text-align : left;
+	font-size : 1.1em;
+}
+
+.review_container span{
+	color: #8d8d8d;
+}
+
+.review_container.current{
+	display : block;
+	overflow : hidden;
+	padding : 0;
+	height : auto;
+	text-align : left;
+}
+
+.review_container ul{
+	border-top : 1px solid black;
+	display : none;
+}
+
+.mgrade{
+	color : #ffc000;
+	font-size : 1.5em;
+	float : right;
+}
+
+.review_container ul li:nth-child(4){
+	color: #8d8d8d;
+    padding: 10px 0px;
+    clear: both;
+}
+
+.re_profile{
+	font-size : 1.3em;
+	font-weight : bold;
+}
+
+.re_img img{
+	width : 120px;
+	padding-top : 15px;
+}
+
+.reImg{
+	border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* The Modal (background) */
+.reModal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.reModal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}

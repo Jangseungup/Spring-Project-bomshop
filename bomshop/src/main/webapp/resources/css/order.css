@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+.clear{
+	min-height : 30px;
+}
+
+.pagetitle{
+	text-align : center;
+}
+
+a{
+	text-decoration: none;	
+}
+
+#order_wrap{
+   width : 80%;
+   margin : 0 auto;
+   position : relative;
+}
+
+.wishList{
+   width : 100%;
+}
+
+#order_wrap table{
+   border-top : 1px solid black;
+   width : 100%;
+}
+
+h3{
+   margin-top : 90px;
+}
+
+.wishList table{
+	border-bottom : 1px solid black;
+}
+
+.wishList tr td{
+	vertical-align: middle;
+    padding: 10px;
+}
+
+.wishList tr td:first-child{
+	width: 10%;
+    padding: 15px 10px;
+}
+
+.wishList tr td:last-child{
+	width: 15%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.delivery_div h3{
+   float : left;
+}
+
+.delivery_div label{
+   font-size: 20px;
+   margin-top : 90px;
+}
+
+.equals_order{
+   width : 15px;
+   height: 15px;
+}
+
+td{
+   padding : 10px 15px;
+}
+
+input[type=text]{
+   padding: 13px;
+    background: #f5f5f5;
+    color: #8d8d8d;
+    border: none;
+    font-size: 0.9em;
+    margin: 3px 0px;
+   width : 100%;
+}
+
+.order_div tr td:first-child, .delivery_div tr td:first-child{
+   width : 20%;
+   vertical-align : middle;
+   text-align : center;
+   font-weight : 700;
+}
+
+.order_div tr td:last-child, .delivery_div tr td:last-child{
+   width : 80%;
+}
+
+#delivery_addr_post{
+   width: 20%;
+   float : left;
+}
+
+.addrBtn{
+   width : 20%;
+   margin-left : 20px;
+   vertical-align : middle;
+   margin-top : 10px;
+}
+
+.calc_div td{
+   width : 50%;
+   float : left;
+   padding : 10px 20px;
+}

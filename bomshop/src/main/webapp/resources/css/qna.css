@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+ul, li{
+	margin : 0;
+	padding : 0;
+}
+
+.qna_wrap{
+	width : 100%;
+	margin : 10px auto;
+	clear : both;
+}
+
+.qna_nav{
+    float: none;
+    padding-bottom: 35px;
+}
+
+.qna_nav span{
+	float : left;
+	font-size : 1.3em;
+	font-weight : bold;
+}
+
+.q_head{
+	font-weight: bold;
+    font-size: 1.23m;
+    padding: 10px 0;
+    display : block;
+}
+
+.q_head div{
+	text-align: center !important;
+    float: left;
+    padding: 20px 0px;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+.q_head div:nth-child(1){
+	width : 15%;
+}
+
+.q_head div:nth-child(2){
+	width : 55%;
+}
+
+.q_head div:nth-child(3){
+	width : 15%;
+}
+
+.q_head div:nth-child(4){
+	width : 15%;
+}
+
+.ql div:nth-child(1){
+	width : 15%;
+}
+
+.ql div:nth-child(2){
+	width : 55%;
+}
+
+.ql div:nth-child(3){
+	width : 15%;
+}
+
+.ql div:nth-child(4){
+	width : 15%;
+}
+
+.ql div:last-child{
+	display : none;
+	width : 100%;
+}
+
+.ql{
+	clear: both;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+.ql div{
+	float: left;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.qnaCnt{
+	color : #8d8d8d;
+}
+
+#qBtn{
+	height: 35px;
+    line-height: 35px;
+    background: #000000;
+    padding: 0px 20px;
+    color: #ffffff;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+
+#q_list{
+	padding : 0;
+}
+
+.qna_paging{
+	text-align: center;
+    font-size: 1.1em;
+    overflow: hidden;
+    padding: 20px 0px 40px 0px;
+    clear: both;
+}
+
+.qna_list{
+	    border-bottom: 1px solid #bdbdbd;
+    border-top: 1px solid #000000;
+    margin-top: 20px;
+    clear: both;
+    font-size: 1.1em;
+}
+
+.qna_paging a{
+	color: #000000;
+    padding: 5px 10px;
+    border: 1px solid #ffffff;
+}
+
+.qna_paging a.active{
+	color: #ffffff;
+    background: #000000;
+}
+
+.qna_reg{
+	display : none;
+}
+
+textarea{
+	resize : none;
+}
+
+#qnaTitle{
+	width : 100%;
+}
+
+#qnaContent{
+	background: #f5f5f5;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    height: 120px;
+}
+
+.qna_write{
+	border-bottom : 0;
+}
+
+.qna_write tr, .qna_write tr td{
+	padding : 10px 10px; 
+	
+}
+
+.qna_write tr td:first-child{
+	width: 20%;
+    text-align: center;
+}
+
+
+.qna_write tr:last-child{
+	text-align : center;
+	border-top : 1px solid black;
+}
+
+
+
+#qnaAddBtn{
+	height: 35px;
+    line-height: 35px;
+    background: #000000;
+    padding: 0px 20px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#cancleBtn{
+	height: 35px;
+    line-height: 35px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+#sec_status{
+	width : 15px;
+	height : 15px;
+}
+
+.qnaimg2{
+	display : none;
+}
+
+
+}

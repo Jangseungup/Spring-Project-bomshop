@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+#login_wrap{
+	margin : 120px 0 150px 0;
+	text-align : center;
+}
+
+.login_top_text span:first-child{
+	color : red;
+	font-size : 25px;
+}
+
+.login_top_text span:nth-child(3){
+	color : black;
+	font-size : 30px;
+}
+
+.login_form_wrap{
+	height : 120px;
+	text-align : center;
+	padding : 20px;
+}
+
+.login_form_wrap input[type="text"], input[type="password"]{
+	width : 500px;
+	height : 30px;
+}
+
+#loginOKBtn{
+	width : 504px;
+	height : 40px;
+	margin-bottom:4px;
+	background-color: black;
+	color : white;
+	border : 1px solid black;
+	cursor: pointer;
+}
+
+#joinGetBtn{
+	width : 504px;
+	height : 40px;
+	margin-bottom:4px;
+	background-color: white;
+	color : black;
+	cursor: pointer;
+}
+
+.login_social_wrap{
+	display: inline-block;
+}
+
+.login_social_wrap div{
+	margin-bottom : 10px;
+}
+.login_form{
+	hegiht : 120px;
+	text-align : center;
+	display: inline-block;
+}
+
+.login_find_wrap{
+	margin-top : 30px;
+	text-align : center;
+}
+
+.login_find_wrap a{
+	text-decoration: none;
+	color : black;
+	font-size : 13px;
+}
+#kakao_id_login{
+	display: inline-block;
+}
+#kakao_id_login:hover{
+	cursor: pointer;
+}
+
