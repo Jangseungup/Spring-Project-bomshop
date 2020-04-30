@@ -8,7 +8,7 @@
 --------
 
 * **Server**
-  - tomcat v 8.5
+  - tomcat v8.5
 * **HTML**
 * **CSS**
 * **Bootstrap**
