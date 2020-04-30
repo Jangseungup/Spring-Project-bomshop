@@ -16,6 +16,7 @@
 * **JAVA**
   - jdk 1.8
 * **Javascript**
+* **jQuery**
 * **Ajax**
 * **Spring Framework**
   - 5.2.2.RELEASE
